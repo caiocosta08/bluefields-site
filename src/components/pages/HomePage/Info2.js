@@ -1,8 +1,13 @@
 import React from 'react'
+import {FaLinkedin} from 'react-icons/fa';
 import './Info2.css'
 import ReactPlayer from 'react-player'
 import Photo1 from '../../../imgs/photo1.png'
 import Photo2 from '../../../imgs/photo2.png'
+import debora from '../../../imgs/debora.jpg'
+import fernando from '../../../imgs/fernando.jpg'
+import fabio from '../../../imgs/fabio.jpg'
+import ferdinan from '../../../imgs/ferdinan.png'
 
 function Info2() {
     return (
@@ -67,7 +72,7 @@ function Info2() {
                         <h3 className="map">MAPA DE</h3>
                         <h1 className="soft">SOFTSKILLS E HARDSKILLS</h1>
                         <div className="colunas">
-                        <div className="card">
+                        <div className="card2">
                             <center>
                                 <img className="PhotoMobile" src={Photo1}/>
                             </center>
@@ -79,7 +84,7 @@ function Info2() {
                                 <li className="lista">Flexibilidade e eficiência.</li>
                             </ul>
                         </div>
-                            <div className="card">
+                            <div className="card2">
                                 <center>
                                 <img className="PhotoMobile" src={Photo2}/>
                                 </center>
@@ -100,6 +105,47 @@ function Info2() {
                                 </ul>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <h1 className="time">Quem já faz parte do time:</h1>
+                        <p className="descTime">Sinta-se à vontade para nos adicionar no LinkedIn e enviar uma mensagem :)</p>
+                        <div className="Containercards">
+                        <div className="card">
+                            <img src={debora} />
+                            <div className="container2">
+                                <h4 className="nameTime"><b>Débora Cordeiro</b>
+                                <a href="https://www.linkedin.com/in/enfermeiradeboracordeiro/"><FaLinkedin className="Linkedin"/></a></h4>
+                                <p className="descFunTime">Design Sprint</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={fernando} />
+                            <div className="container2">
+                                <h4 className="nameTime"><b>Fernando Sérgio</b>
+                                <a href="https://www.linkedin.com/in/fernandosergio/"><FaLinkedin className="Linkedin"/></a></h4>
+                                <p className="descFunTime">UX</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={fabio} />
+                            <div className="container2">
+                                <h4 className="nameTime"><b>Fábio Carelli</b>
+                                <a href="https://www.linkedin.com/in/fabio-dudus-carelli/"><FaLinkedin className="Linkedin"/></a></h4>
+                                <p className="descFunTime">Kingdom Busines</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={ferdinan} />
+                            <div className="container2">
+                                <h4 className="nameTime"><b>Marco Camara</b>
+                                <a href="https://www.linkedin.com/in/marco-camara-42608a24/"><FaLinkedin className="Linkedin"/></a></h4>
+                                <p className="descFunTime">Kingdom Business,</p>
+                                <p className="descFunTime"> MKT&Vendas, Finanças</p>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>

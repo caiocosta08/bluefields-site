@@ -114,7 +114,7 @@
   color: #FFFFFF;
 }
 
-.card {
+.card2 {
   width: 615px;
   height: 1318px;
   background: #FFFFFF;
@@ -190,8 +190,83 @@
 
 }
 
+.Containercards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; */
+  margin: 23px;
+  border-radius: 10px;
+}
+
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+.container2 {
+  padding: 2px 16px;
+}
+.card img {
+  width: 285.53px;
+  height: 285.53px;
+  border-radius: 10px;
+}
+
+.time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #4A81E8;
+  margin-top: 86px;
+  /* margin-left: 21px; */
+}
+.descTime {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #173264;
+  margin-bottom: 31px;
+  /* margin-left: 21px; */
+}
+
+.nameTime {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #173264;
+  margin-left: -15px;
+}
+
+.descFunTime {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+  color: #7D7D7D;
+  margin-left: -15px;
+}
+
+.Linkedin {
+  font-size: 33px;
+  color: #4A81E8;
+  margin-left: 50px;
+  margin-top: 21px;
+}
+
+
 @media screen and (max-width: 991px) {
-  .card {
+  .card2 {
     width: 286px;
     background: #FFFFFF;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
