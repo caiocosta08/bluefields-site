@@ -157,7 +157,7 @@ function Info1() {
 
                            </div>
                        </div> */}
-                   <div className="row home-row">
+                   {/* <div className="row home-row">
                     <div className="col">
                             <div className="flex">
                                     <img src={repite}/>
@@ -167,8 +167,8 @@ function Info1() {
                                     <img src={repite}/>
                             </div>
                         </div>
-                   </div>
-                   <div className="row home-row fundoNome">
+                   </div> */}
+                   {/* <div className="row home-row fundoNome">
                     <div className="col">
                             <h2>Nome da empresa</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -176,7 +176,7 @@ function Info1() {
                             </p>
                         </div>
                         <ReactPlayer className="video" url="https://www.youtube.com/watch?v=FZtWV5mn8VY&t=2s"/>
-                   </div>
+                   </div> */}
                    <div className="row home-row">
                     <div className="col">
                     <h1 className="beneficios">Quais os benefícios para as Startups selecionadas?</h1>

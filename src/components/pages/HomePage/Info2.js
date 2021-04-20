@@ -8,6 +8,7 @@ import debora from '../../../imgs/debora.jpg'
 import fernando from '../../../imgs/fernando.jpg'
 import fabio from '../../../imgs/fabio.jpg'
 import ferdinan from '../../../imgs/ferdinan.png'
+import { Link } from 'react-router-dom';
 
 function Info2() {
     return (
@@ -125,7 +126,7 @@ function Info2() {
                             <img src={fernando} />
                             <div className="container2">
                                 <h4 className="nameTime"><b>Fernando Sérgio</b>
-                                <a href="https://www.linkedin.com/in/fernandosergio/"><FaLinkedin className="Linkedin"/></a></h4>
+                                <a href="https://www.linkedin.com/in/fernandosergio/"><FaLinkedin className="Linkedin linkmobi"/></a></h4>
                                 <p className="descFunTime">UX</p>
                             </div>
                         </div>
@@ -151,6 +152,7 @@ function Info2() {
                 </div>
                 <div className="row">
                     <div className="col">
+                        {/* <Link to='/mentor'> */}
                         <h1 className="insc">INSCREVA-SE!</h1>
                         <h1 className="preen">Preencha o formulário abaixo e se inscreva!</h1>
                         <div className="divform">
@@ -164,6 +166,8 @@ function Info2() {
                             </div>
                         </div>
                         <button className="btn-info2">ENVIAR MINHA INSCRIÇÃO</button>
+
+                        {/* </Link> */}
                     </div>
                 </div>
             </div>
