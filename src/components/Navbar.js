@@ -21,31 +21,31 @@ function Navbar() {
         <IconContext.Provider value={{color: '#fff'}}>
             <div className="navbar">
                 <div className="navbar-container container">
-                    <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+                    <a href="https://www.bluefieldsdev.com/" className="navbar-logo" onClick={closeMobileMenu}>
                         <img src={Logo} className='navbar-icon'/>
-                    </Link>
+                    </a>
                     <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/' className="nav-links" onClick={closeMobileMenu}>Home</Link>
+                            <a href="https://www.bluefieldsdev.com/" className="nav-links" onClick={closeMobileMenu}>Home</a>
                         </li>
                         <li className="nav-item">
                             <button onClick={onClick} className="nav-links">Programas</button>
                             <nav ref={dropdownRef} className={`menu ${isActive ? 'activee' : 'inactive'}`}>
                             <ul>
-                                <li><Link to='/corporate'>CORPORATE</Link></li>
-                                <li><Link to='/tbb7'>BIODIGITAL TBB7</Link></li>
-                                <li><Link to='/sparks'>SPARKS</Link></li>
+                                <li><a href="https://www.bluefieldsdev.com/programas/inovacao-corporativa/">CORPORATE</a></li>
+                                <li><Link to='/facilitadores/tbb7'>BIODIGITAL TBB7</Link></li>
+                                <li><a href="https://www.bluefieldsdev.com/programas/bamsparks/">SPARKS</a></li>
                             </ul>
                             </nav>
                         </li>
                         <li className="nav-item">
-                            <Link to='/blog' className="nav-links">Blog</Link>
+                            <a href="https://blog.bluefieldsdev.com/" className="nav-links">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <Link to='/contato' className="nav-links">Contato</Link>
+                            <a href="https://www.bluefieldsdev.com/contato.html" className="nav-links">Contato</a>
                         </li>
                     </ul>
                     <ul className="nav-menu2">
