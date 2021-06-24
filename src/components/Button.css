@@ -80,7 +80,7 @@
 .blue{
     background-color: #fff;
     color: #173264;
-    width: 420px;
+    max-width: 420px;
     height: 50px;   
     border: none;
     font-size: 24px;
@@ -93,7 +93,7 @@
     .blue {
         background-color: #fff;
         color: #173264;
-        width: 210px;
+        max-width: 210px;
         height: 40px;   
         border: none;
         font-size: 14px;

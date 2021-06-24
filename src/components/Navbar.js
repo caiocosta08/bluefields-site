@@ -20,7 +20,7 @@ function Navbar() {
         <>
         <IconContext.Provider value={{color: '#fff'}}>
             <div className="navbar">
-                <div className="navbar-container container">
+                <div className="navbar-container">
                     <a href="https://www.bluefieldsdev.com/" className="navbar-logo" onClick={closeMobileMenu}>
                         <img src={Logo} className='navbar-icon'/>
                     </a>

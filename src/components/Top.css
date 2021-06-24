@@ -1,6 +1,7 @@
 .home__hero-section{
   /* color: #fff; */
-  padding: 160px 0;
+  box-sizing: border-box;
+  padding: 160px 80px;
 }
 
 .home__hero-row{
@@ -19,20 +20,15 @@
 .col {
   margin-bottom: 15px;
   padding-right: 15px;
-  padding-left: 80px;
+  padding-left: 0 !important;
   flex: 1;
   max-width:1500px;
   flex-basis: 50%;
 }
 
 .home__hero-text-wrapper{
-  max-width: 1500px;
   padding-top: 0;
   padding-bottom: 60px;
-}
-
-.top-line{
-
 }
 
 .heading{
@@ -75,13 +71,14 @@
 
 @media screen and (max-width: 991px) {
   .container {
-    padding-right: 30px;
-    padding-left: 30px;
+    box-sizing: border-box;
+    /* padding: 0 30px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .home__hero-text-wrapper {
+    box-sizing: border-box;
     padding-bottom: 65px;
   }
   .col {
