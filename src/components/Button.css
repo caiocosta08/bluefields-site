@@ -77,10 +77,9 @@
     height: 100%;
 }
 
-.blue{
+.blue {
     background-color: #fff;
     color: #173264;
-    max-width: 420px;
     height: 50px;   
     border: none;
     font-size: 24px;
@@ -92,8 +91,8 @@
 @media screen and (max-width: 991px) {
     .blue {
         background-color: #fff;
+        padding: 0 20px !important;
         color: #173264;
-        max-width: 210px;
         height: 40px;   
         border: none;
         font-size: 14px;

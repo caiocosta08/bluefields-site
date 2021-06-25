@@ -88,6 +88,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .home__hero-subtitle{
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 25px !important;
+  }
+  .home__hero-title {
+    font-size: 20px;
+  }
   .home__hero-text-wrapper {
     box-sizing: border-box;
     padding-bottom: 65px;
@@ -95,5 +104,8 @@
   .col {
     max-width: 100%;
     flex-basis: 100%;
+  }
+  .fundoCorporative {
+    height: initial;
   }
 }
