@@ -23,5 +23,4 @@ export const home_ObjOne = {
     buttonLabel: 'Quero participar!',
     imgStart:'',
     caminho: '/facilitadores'
-
 }

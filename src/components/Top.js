@@ -3,10 +3,10 @@ import {Button} from './Button';
 import {Link} from 'react-router-dom';
 import './Top.css';
 
-function Top({lightBg,topLine,lightText,lightTextDesc,headline,description,buttonLabel,imgStart, caminho
+function Top({lightBg,topLine,lightText,lightTextDesc,headline,description,buttonLabel,imgStart, caminho, corporative = false
 }) {
     return (
-        <div className={lightBg ? 'home__hero-section fundoImage' : 'home__hero-section darkBg'}>
+        <div className={`${lightBg ? 'home__hero-section fundoImage' : 'home__hero-section darkBg'} ${corporative ? 'fundoCorporative' : ''}`}>
             <div className="container">
                 <div className="row home__hero-row" style={{ display:'flex',
                 flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>

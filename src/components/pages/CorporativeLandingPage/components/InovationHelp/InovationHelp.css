@@ -1,0 +1,255 @@
+.inovation-help-wrapper {
+  background-color: #fff;
+}
+
+.inovation-help-wrapper .headdings {
+  background-image: url('../../../../../imgs/fundo-inovation-help.png');
+  background-position: center;
+  background-size: cover;
+  padding: 0 81px;
+  padding-top: 111px;
+  padding-bottom: 196px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.inovation-help-wrapper .headdings .inovation-help-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #4A81E8;
+  max-width: 1276px;
+}
+
+.inovation-help-wrapper .headdings .inovation-help-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  color: #FFFFFF;
+  max-width: 1276px;
+}
+
+.inovation-help-wrapper .cardList {
+  margin-top: -116px;
+  margin-bottom: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 54px;
+  row-gap: 43px;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.inovation-help-wrapper .cardList .cardItem {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  min-height: 870px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  transition: border 0.25s;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.inovation-help-wrapper .cardList .cardItem:hover {
+  border: 5px solid #4A81E8;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 60px 12px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content img {
+  margin-bottom: 39px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .bigbam {
+  width: 230px;
+  height: 75px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .squad {
+  width: 118px;
+  height: 92px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .content-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #173264;
+  margin-bottom: 14px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .content-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #7D7D7D;
+  margin-bottom: 51px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .entregaveis {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #173264;
+  padding-bottom: 12px;
+}
+
+.inovation-help-wrapper .cardList .cardItem .content .entregaveis-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #7D7D7D;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.inovation-help-wrapper .cardList .cardItem a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 98px;
+  background: #4A81E8;
+  border-radius: 10px 10px 0 0;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.inovation-help-wrapper .pegada {
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  box-sizing: border-box;
+  padding: 0 80px;
+  margin-bottom: 181px;
+}
+
+.inovation-help-wrapper .pegada .titles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.inovation-help-wrapper .pegada .titles .content-title,
+.inovation-help-wrapper .pegada .titles .content-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  color: #4A81E8;
+}
+
+.inovation-help-wrapper .pegada .titles .content-subtitle {
+  color: #173264;
+  font-size: 3.8rem;
+}
+
+
+.inovation-help-wrapper .pegada .description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #7D7D7D;
+}
+
+.inovation-help-wrapper .pegada .infoList {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 76px;
+  row-gap: 170px;
+}
+
+.inovation-help-wrapper .pegada .infoList .infoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.inovation-help-wrapper .pegada .infoList .infoItem .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  text-align: center;
+  color: #4A81E8;
+  max-width: 353px;
+}
+
+.inovation-help-wrapper .pegada .infoList .infoItem .subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #173264;
+  max-width: 353px;
+}
+
+@media screen and (max-width: 495px) {
+  .inovation-help-wrapper .pegada {
+    display: none;
+    padding: 0 15px;
+  }
+  .inovation-help-wrapper .pegada .titles .content-title,
+  .inovation-help-wrapper .pegada .titles .content-subtitle,
+  .inovation-help-wrapper .pegada .infoList .infoItem .subtitle,
+  .inovation-help-wrapper .pegada .description {
+    font-size: 14px;
+  }
+  .inovation-help-wrapper .headdings .inovation-help-subtitle {
+    font-size: 26px;
+  }
+  .inovation-help-wrapper .headdings .inovation-help-subtitle {
+    font-size: 20px;
+  }
+}

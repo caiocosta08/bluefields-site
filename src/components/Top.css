@@ -31,7 +31,14 @@
   padding-bottom: 60px;
 }
 
-.heading{
+.home__hero-text-wrapper button {
+  box-sizing: border-box;
+  padding: 0 81px;
+  font-weight: 600;
+}
+
+.heading {
+  max-width: 893px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -59,9 +66,13 @@
   background-size: cover;
 }
 
+.fundoCorporative {
+  background-image: url(../imgs/fundo-corporative.png);
+  height: calc(100vh - 81px);
+}
 
 .home__hero-subtitle{
-  max-width: 1500px;
+  max-width: 893px;
   margin-bottom: 35px;
   font-size: 28px;
   line-height: 40px;
