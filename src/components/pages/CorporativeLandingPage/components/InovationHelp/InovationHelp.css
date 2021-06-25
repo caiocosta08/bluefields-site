@@ -203,6 +203,8 @@
   flex-wrap: wrap;
   column-gap: 76px;
   row-gap: 170px;
+  max-width: 1400px;
+  align-self: center;
 }
 
 .inovation-help-wrapper .pegada .infoList .infoItem {
