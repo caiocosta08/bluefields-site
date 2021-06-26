@@ -63,17 +63,17 @@ function Footer() {
                         </div>
                         <div className="adress2 blog">
                             <h1>Blog</h1>
-                            <img src={blog}/>
+                            <img src={blog} alt="illustrative icon"/>
                         </div>
                         <div className="adress2 fotos">
                             <h1>Fotos do Instagram</h1>
                             <div className="photosMidia">
-                            <img src={foto12}/>
-                            <img src={foto13}/>
+                            <img src={foto12} alt="illustrative icon"/>
+                            <img src={foto13} alt="illustrative icon"/>
                             {/* <img src={blog}/> */}
-                            <img src={foto14}/>
-                            <img src={foto16}/>
-                            <img src={foto17}/>
+                            <img src={foto14} alt="illustrative icon"/>
+                            <img src={foto16} alt="illustrative icon"/>
+                            <img src={foto17} alt="illustrative icon"/>
                             </div>
     
                         </div>

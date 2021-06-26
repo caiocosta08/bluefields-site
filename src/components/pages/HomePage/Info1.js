@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import './Info1.css'
-import repite from '../../../imgs/repite.png'
+// import repite from '../../../imgs/repite.png'
 import ReactPlayer from 'react-player'
 import Carousel from "react-elastic-carousel"
 import { IoIosArrowDropupCircle, IoIosArrowDropdownCircle } from 'react-icons/io';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Item from "../../Item"
 import foguete from '../../../imgs/Vector.png'
 import daily from '../../../imgs/daily.png'
@@ -183,48 +183,48 @@ function Info1() {
                         <div className="carrosselStyle">
                            <Carousel breakPoints={breakPoints}>
                                 <Item>
-                                    <img className="imgCarrossel" src={foguete}/>
+                                    <img className="imgCarrossel" alt="illustrative icon" src={foguete}/>
                                     <p className="textCarrossel">
                                         Metodologia de aceleração comprovada. Somos parte de uma rede global de aceleradoras, já
                                         aceleramos milhares de negócios em todo o mundo e quase 200 no Brasil.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"  src={daily}/>
+                                    <img className="imgCarrossel" alt="illustrative icon" src={daily}/>
                                     <p className="textCarrossel">
                                         Sprints de aceleração gamificados. Serão bootcamps temáticos mensais com planos de ação com
                                         muita mão na massa para acelerar sua startup.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"  src={maos}/>
+                                    <img className="imgCarrossel" alt="illustrative icon" src={maos}/>
                                     <p className="textCarrossel">
                                         Startup Partner. Seu time ganha um profissional do time da Bluefields dedicado em colaborar no
                                         crescimento do seu negócio através de agilidade e conexões.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"  src={prof}/>
+                                    <img className="imgCarrossel" alt="illustrative icon" src={prof}/>
                                     <p className="textCarrossel">
                                         Mentoria com experts. Nossa rede de +100 mentores especializados estará à disposição da sua
                                         startup.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"   src={predio}/>
+                                    <img className="imgCarrossel" alt="illustrative icon"  src={predio}/>
                                     <p className="textCarrossel">
                                         Escola de CEOs. Mentorias específicas de liderança e cultura para os founders da sua startup.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"   src={polvo}/>
+                                    <img className="imgCarrossel" alt="illustrative icon"  src={polvo}/>
                                     <p className="textCarrossel">
                                         KB framework. Modelo único no mundo de propósito e impacto, com foco nos 4 Ps (purpose, people,
                                         profit, planet)
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"   src={networking}/>
+                                    <img className="imgCarrossel" alt="illustrative icon"  src={networking}/>
                                     <p className="textCarrossel">
                                         Conexão com grandes empresas. Contato direto com as empresas co-organizadoras do programa
                                         com possibilidade real de fazer negócio, como rodar POCs (Provas de Conceito) facilitadas pela
@@ -232,14 +232,14 @@ function Info1() {
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"   src={free}/>
+                                    <img className="imgCarrossel" alt="illustrative icon"  src={free}/>
                                     <p className="textCarrossel">
                                         Equity-free: não ficamos com nenhum percentual (%) do seu negócio e a aceleração ainda é gratuita
                                         para a startup.
                                     </p>
                                 </Item>
                                 <Item>
-                                    <img className="imgCarrossel"  src={conection}/>
+                                    <img className="imgCarrossel" alt="illustrative icon" src={conection}/>
                                     <p className="textCarrossel">
                                         Acesso a capital. Somos próximos das principais redes de investidores-anjos e fundos de Venture
                                         Capital no Brasil e no mundo, e adoramos recomendar as melhores startups para nossos

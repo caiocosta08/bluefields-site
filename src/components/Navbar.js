@@ -1,7 +1,7 @@
 import React, {useState, useRef} from 'react'
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaFacebookSquare, FaInstagram, FaLinkedin, FaYoutube} from 'react-icons/fa';
-import { Button } from './Button';
+// import { Button } from './Button';
 import Logo from '../imgs/logo.png';
 import '../components/Navbar.css';
 import { IconContext } from 'react-icons/lib';
@@ -22,7 +22,7 @@ function Navbar() {
             <div className="navbar">
                 <div className="navbar-container">
                     <a href="https://www.bluefieldsdev.com/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img src={Logo} className='navbar-icon'/>
+                        <img src={Logo} className='navbar-icon' alt="logo"/>
                     </a>
                     <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
