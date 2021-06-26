@@ -1,0 +1,115 @@
+.investors-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 65px 81px;
+  background: linear-gradient(180deg, #173264 0%, #000000 150.97%);
+}
+
+.investors-wrapper .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #4A81E8;
+}
+
+
+.investors-wrapper .content {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 70px;
+  row-gap: 30px;
+}
+
+.investors-wrapper .content img {
+  width: 485px;
+  height: 335px;
+  justify-self: center;
+}
+
+.investors-wrapper .content .left-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 38px;
+}
+
+.investors-wrapper .content .left-content .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+  max-width: 724px;
+}
+
+.investors-wrapper .content .left-content .text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #FFFFFF;
+  max-width: 724px;
+}
+
+.investors-wrapper .content .left-content a {
+  text-decoration: none;
+}
+
+.investors-wrapper .content .left-content button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 5px 81px;
+  max-width:  420px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #173264;
+}
+
+@media screen and (max-width: 1458px) {
+  .investors-wrapper .content img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .investors-wrapper .title {
+    font-size: 28px;
+  }
+  
+  .investors-wrapper .content .left-content .header {
+    font-size: 20px;
+  }
+  
+  .investors-wrapper .content .left-content .text {
+    font-size: 14px;
+  }
+
+  .investors-wrapper .content .left-content button {
+      background-color: #fff;
+      padding: 0 30px !important;
+      color: #173264;
+      width: fit-content;
+      height: 40px;   
+      border: none;
+      font-size: 14px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 15px;
+  }
+}

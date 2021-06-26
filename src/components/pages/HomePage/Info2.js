@@ -8,7 +8,6 @@ import debora from '../../../imgs/debora.jpg'
 import fernando from '../../../imgs/fernando.jpg'
 import fabio from '../../../imgs/fabio.jpg'
 import ferdinan from '../../../imgs/ferdinan.png'
-import { Link } from 'react-router-dom';
 
 function Info2() {
     return (

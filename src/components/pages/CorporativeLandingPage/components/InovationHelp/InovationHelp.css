@@ -237,7 +237,7 @@
   max-width: 353px;
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 991px) {
   .inovation-help-wrapper .pegada {
     display: none;
     padding: 0 15px;

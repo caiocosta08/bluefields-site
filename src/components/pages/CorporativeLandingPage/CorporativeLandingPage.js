@@ -1,7 +1,10 @@
 import React from 'react';
 import Top from '../../Top';
+import EbookSection from './components/Ebook/Ebook';
+import ImpactSection from './components/Impact/Impact';
 import InovationSection from './components/Inovation/Inovation';
 import InovationHelpSection from './components/InovationHelp/InovationHelp';
+import InvestorsSection from './components/Investors/Investors';
 
 export const pageData = {
   lightBg: true,
@@ -22,6 +25,9 @@ function Home() {
       <Top {...pageData}/>
       <InovationSection />
       <InovationHelpSection />
+      <InvestorsSection />
+      <ImpactSection />
+      <EbookSection />
     </div>
   )
 }

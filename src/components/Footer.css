@@ -63,6 +63,14 @@
     margin-top: 50px;
   }
 
+  .adress svg {
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+    min-height: 26px;
+    transform: translateY(7px);
+  }
+
   .adress p, .adress3 p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -90,6 +98,7 @@
 
   .adress3 div {
     display: flex;
+    align-items: center;
     column-gap: 14px;
   }
 
@@ -144,22 +153,19 @@
     .fotos {
       display: none;
     }
-    .adress p {
+    .adress p, .adress2 p, .adress3 p {
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: normal;
-      font-size: 10px;
+      font-size: 12px;
       line-height: 40px;
       color: #FFFFFF;
     }
-    .adress2 p {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 10px;
-      line-height: 40px;
-      color: #FFFFFF;
+
+    .adress3 {
+      row-gap: 10px;
     }
+
     .footer-col {
       padding-right: 15px;
       padding-left: 15px;
@@ -168,6 +174,7 @@
       max-width: 1500px;
       flex-basis: 50%;
     }
+
     .footerText {
       color: white; 
       font-size: 14px;

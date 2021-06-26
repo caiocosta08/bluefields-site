@@ -57,8 +57,8 @@ function Footer() {
                                     <p>	+55 (11) 93295-4465</p> 
                                 </div> 
                                 <div>
-                                <FaEnvelope className="BsGeoAlt"/> 
-                                    <p>	+55 (11) 93295-4465</p> 
+                                    <FaEnvelope className="BsGeoAlt"/> 
+                                    <p>contato@bluefieldsdev.com</p> 
                                 </div>                              
                         </div>
                         <div className="adress2 blog">
