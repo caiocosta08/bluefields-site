@@ -61,7 +61,6 @@
 
 .fundoCorporative {
   background-image: url(../imgs/fundo-corporative.png);
-  height: calc(100vh - 81px);
 }
 
 .home__hero-subtitle{
@@ -96,6 +95,6 @@
   }
   .fundoImage {
     padding: 20px;
-    height: fit-content
+    height: fit-content;
   }
 }

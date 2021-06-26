@@ -77,11 +77,11 @@
 
 
 .nav-links-mobile {
-  display: none;
+  /* display: none; */
 }
 
 .menu-icon {
-  display: none;
+  /* display: none; */
 }
 
 /* -----------------------------Dropdown--------------------------------------------- */
@@ -182,7 +182,6 @@
   .nav-item,
   .nav-item2 {
     box-sizing: border-box;
-    display: none;
   }
   .nav-links2 {
     display: none;
@@ -246,11 +245,11 @@
     opacity: 0;
     visibility: hidden;
   }
-  
-  .menu.activee {
+/*   
+  .active {
     opacity: 1;
     visibility: visible;
     transform: translateY(110px);
-  }
+  } */
 
 }
