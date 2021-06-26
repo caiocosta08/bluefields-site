@@ -10,20 +10,14 @@
 
 .row{
   display: flex;
-  margin-right: -15px;
-  margin-bottom: -15px;
-  margin-left: -15px;
   flex-wrap: wrap;
   align-content: stretch;
 }
 
 .col {
-  margin-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 0 !important;
+  display: flex;
   flex: 1;
   max-width:1500px;
-  flex-basis: 50%;
 }
 
 .home__hero-text-wrapper{
@@ -101,11 +95,8 @@
     box-sizing: border-box;
     padding-bottom: 65px;
   }
-  .col {
-    max-width: 100%;
-    flex-basis: 100%;
-  }
-  .fundoCorporative {
-    height: initial;
+  .fundoImage {
+    padding: 20px;
+    height: fit-content
   }
 }

@@ -119,6 +119,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .ebook-session-wrapper {
+    padding: 20px;
+  }
+
   .ebook-session-wrapper .title {
     font-size: 28px;
   }

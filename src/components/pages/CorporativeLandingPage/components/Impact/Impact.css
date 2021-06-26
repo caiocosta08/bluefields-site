@@ -183,4 +183,7 @@
     width: 25px;
     height: 25px;
   }
+  .impact-wrapper .titles {
+    padding: 0 20px;
+  }
 }

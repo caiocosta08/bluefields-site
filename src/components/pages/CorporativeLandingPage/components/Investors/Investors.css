@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .investors-wrapper { 
+    padding: 20px;
+  }
   .investors-wrapper .title {
     font-size: 28px;
   }
