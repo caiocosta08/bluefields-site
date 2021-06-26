@@ -108,44 +108,42 @@ function Info2() {
                         </div>
                 </div>
                 <div className="row">
-                    <div className="col">
-                        <h1 className="time">Quem já faz parte do time:</h1>
-                        <p className="descTime">Sinta-se à vontade para nos adicionar no LinkedIn e enviar uma mensagem :)</p>
-                        <div className="Containercards">
-                        <div className="card">
-                            <img src={debora} />
-                            <div className="container2">
-                                <h4 className="nameTime"><b>Débora Cordeiro</b>
-                                <a href="https://www.linkedin.com/in/enfermeiradeboracordeiro/"><FaLinkedin className="Linkedin"/></a></h4>
-                                <p className="descFunTime">Design Sprint</p>
-                            </div>
+                    <h1 className="time">Quem já faz parte do time:</h1>
+                    <p className="descTime">Sinta-se à vontade para nos adicionar no LinkedIn e enviar uma mensagem :)</p>
+                    <div className="Containercards">
+                    <div className="card">
+                        <img src={debora} alt="debora's avatar"/>
+                        <div className="container2">
+                            <h4 className="nameTime"><b>Débora Cordeiro</b>
+                            <a href="https://www.linkedin.com/in/enfermeiradeboracordeiro/"><FaLinkedin className="Linkedin"/></a></h4>
+                            <p className="descFunTime">Design Sprint</p>
                         </div>
-                        <div className="card">
-                            <img src={fernando} />
-                            <div className="container2">
-                                <h4 className="nameTime"><b>Fernando Sérgio</b>
-                                <a href="https://www.linkedin.com/in/fernandosergio/"><FaLinkedin className="Linkedin linkmobi"/></a></h4>
-                                <p className="descFunTime">UX</p>
-                            </div>
+                    </div>
+                    <div className="card">
+                        <img src={fernando} alt="fernando's avatar"/>
+                        <div className="container2">
+                            <h4 className="nameTime"><b>Fernando Sérgio</b>
+                            <a href="https://www.linkedin.com/in/fernandosergio/"><FaLinkedin className="Linkedin linkmobi"/></a></h4>
+                            <p className="descFunTime">UX</p>
                         </div>
-                        <div className="card">
-                            <img src={fabio} />
-                            <div className="container2">
-                                <h4 className="nameTime"><b>Fábio Carelli</b>
-                                <a href="https://www.linkedin.com/in/fabio-dudus-carelli/"><FaLinkedin className="Linkedin"/></a></h4>
-                                <p className="descFunTime">Kingdom Busines</p>
-                            </div>
+                    </div>
+                    <div className="card">
+                        <img src={fabio} alt="fabio's avatar"/>
+                        <div className="container2">
+                            <h4 className="nameTime"><b>Fábio Carelli</b>
+                            <a href="https://www.linkedin.com/in/fabio-dudus-carelli/"><FaLinkedin className="Linkedin"/></a></h4>
+                            <p className="descFunTime">Kingdom Busines</p>
                         </div>
-                        <div className="card">
-                            <img src={ferdinan} />
-                            <div className="container2">
-                                <h4 className="nameTime"><b>Marco Camara</b>
-                                <a href="https://www.linkedin.com/in/marco-camara-42608a24/"><FaLinkedin className="Linkedin"/></a></h4>
-                                <p className="descFunTime">Kingdom Business,</p>
-                                <p className="descFunTime"> MKT&Vendas, Finanças</p>
-                            </div>
+                    </div>
+                    <div className="card">
+                        <img src={ferdinan} alt="fernando's avatar"/>
+                        <div className="container2">
+                            <h4 className="nameTime"><b>Marco Camara</b>
+                            <a href="https://www.linkedin.com/in/marco-camara-42608a24/"><FaLinkedin className="Linkedin"/></a></h4>
+                            <p className="descFunTime">Kingdom Business,</p>
+                            <p className="descFunTime"> MKT&Vendas, Finanças</p>
                         </div>
-                        </div>
+                    </div>
                     </div>
                 </div>
                 <div className="row">

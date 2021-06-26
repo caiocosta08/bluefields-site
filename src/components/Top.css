@@ -15,7 +15,6 @@
 }
 
 .col {
-  display: flex;
   flex: 1;
   max-width:1500px;
 }
