@@ -16,7 +16,7 @@ const cardsData = [
     title: 'THE BIG BAM',
     subtitle: 'Programa verticalizado de aceleração corporativa com inovação aberta entre startups e grandes empresas',
     logo: BAMlogo,
-    link: 'http://www.bluefieldsdev.com/biodigital/',
+    link: 'https://bluefieldsdev.activehosted.com/f/18',
     entregaveis: 'Intercâmbio de conhecimento, cultura e geração de negócios entre granders empresas e startups',
     className: 'bigbam'
   },
@@ -24,7 +24,7 @@ const cardsData = [
     title: 'SQUAD 001',
     subtitle: 'Para empresas que querem se reinventar ao formar os primeiros squads de inovação',
     logo: squadLogo,
-    link: 'http://www.bluefieldsdev.com/biodigital/',
+    link: 'https://bluefieldsdev.activehosted.com/f/18',
     entregaveis: 'Experiência e vivência digital para testar novos produtos e mercados de forma ágil; desenvolvimento de intraempreendedores; aplicação das principais ferramentas da cultura startup',
     className: 'squad'
   },

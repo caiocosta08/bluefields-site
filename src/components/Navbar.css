@@ -81,7 +81,7 @@
 }
 
 .menu-icon {
-  /* display: none; */
+  display: none;
 }
 
 /* -----------------------------Dropdown--------------------------------------------- */
@@ -251,5 +251,9 @@
     visibility: visible;
     transform: translateY(110px);
   } */
+
+  .menu-icon {
+    display: block;
+  }
 
 }

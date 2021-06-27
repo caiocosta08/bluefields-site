@@ -15,7 +15,7 @@ export const pageData = {
   description: 'Antes a competição era Empresa A versus Empresa B; agora o jogo virou para Ecossistema A versus Ecossistema B. É aqui onde entramos! Vamos te ajudar a capturar, executar e criar uma cultura de inovação!',
   buttonLabel: 'Venha falar conosco!',
   imgStart:'',
-  caminho: '/facilitadores',
+  scrollDownTo: '#ebook-session-wrapper',
   corporative: true
 }
 

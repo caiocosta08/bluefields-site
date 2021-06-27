@@ -161,7 +161,7 @@
   row-gap: 70px;
   box-sizing: border-box;
   padding: 0 80px;
-  margin-bottom: 181px;
+  margin-bottom: 60px;
 }
 
 .inovation-help-wrapper .pegada .titles {
@@ -240,15 +240,17 @@
 @media screen and (max-width: 991px) {
   .inovation-help-wrapper .headdings {
     padding: 20px;
+    padding-bottom: 136px;
   }
   .inovation-help-wrapper .pegada {
-    display: none;
-    padding: 0 15px;
+    padding: 30px 15px;
   }
   .inovation-help-wrapper .pegada .titles .content-title,
   .inovation-help-wrapper .pegada .titles .content-subtitle,
   .inovation-help-wrapper .pegada .infoList .infoItem .subtitle,
   .inovation-help-wrapper .pegada .description {
+    /* background-color: blue; */
+    line-height: initial;
     font-size: 14px;
   }
   .inovation-help-wrapper .headdings .inovation-help-subtitle {
@@ -256,5 +258,19 @@
   }
   .inovation-help-wrapper .headdings .inovation-help-subtitle {
     font-size: 20px;
+  }
+
+  .inovation-help-wrapper .cardList {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inovation-help-wrapper .cardList .cardItem {
+    min-width: 100px;
+  }
+  .inovation-help-wrapper .cardList .cardItem .content-subtitle,
+  .inovation-help-wrapper .cardList .cardItem .entregaveis,
+  .inovation-help-wrapper .cardList .cardItem .entregaveis-text,
+  .inovation-help-wrapper .cardList .cardItem .content-title {
+    font-size: 16px !important;
   }
 }
